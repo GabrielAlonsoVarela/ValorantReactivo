@@ -1,0 +1,37 @@
+.Logo{
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+}
+
+.nombre{
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.pinicio{
+    text-align: justify;
+    font-size: large;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #ff4655;
+    filter: opacity(80%)
+
+}
+
+.background-image {
+    background-image: url('../images/Fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 95vh;
+  }

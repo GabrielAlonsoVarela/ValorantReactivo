@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mapa{
+    height: 600px;
+    width: 600px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.infomapa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    margin-top: 20px;
+}
+
+button{
+    height: 10%;
+    width: 8%;
+    border-radius: 30px;
+    margin: 0px 10px;
+    background-color: #ff4655;
+}
+
+.mapanombre{
+    background-color: #ff4655;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+    text-align: center;
+    opacity: 80%;
+}
+
+.mapadesc{
+    background-color: #ff4655;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 30%;
+    text-align: center;
+    opacity: 80%;
+}
