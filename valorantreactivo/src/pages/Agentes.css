@@ -1,0 +1,78 @@
+.agent-page{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.agent-photo{
+    width: 2000px;
+}
+
+.agent-photo > img{
+    max-width: 100%;
+    height: auto;
+}
+
+.info{
+    width: 1900px;
+}
+.agent-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.namedesc > h2{
+    font-weight: 800;
+    font-size: xx-large;
+    padding-bottom: 20px;
+}
+
+.role{
+    margin: 5px;
+}
+
+.role > img{
+    width: 100px;
+    height: 100px;
+}
+
+.abilities{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.agent-page > button{
+    height: 100px;
+    width: 8%;
+    border-radius: 30px;
+    margin: 0px 10px;
+    background-color: #ff4655;
+}
+
+
+.iconon{
+    height: 130px;
+    width: 130px;
+}
+
+.ability{
+    text-align: center;
+}
+
+.ability:hover{
+    background-color: #ff4655;
+}
+
+.ability-description{
+    background-color: #ff4655;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.selected {
+    background-color: #ff4655;
+  }

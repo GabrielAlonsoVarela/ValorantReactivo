@@ -1,0 +1,77 @@
+.acch1{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ff4655;
+    border-radius: 5px;
+}
+
+.acch2{
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: lightsalmon;
+    
+    border-radius: 5px;
+}
+
+.mainacc{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo{
+    width: 30%;
+    text-align: center;
+}
+
+.tarjeta{
+    width: 30%;
+    text-align: center;
+}
+
+.accarma{
+    width: 30%;
+    text-align: center;
+}
+
+.recuadro{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+}
+
+.contenedor{
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.contenedor:hover, .buddy:hover{
+    background-color: lightcoral;
+}
+
+.contenedor > img{
+width: 60px;
+height: 60px;
+}
+
+.buddy{
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.buddy > img{
+width: 60px;
+height: 60px;
+}
