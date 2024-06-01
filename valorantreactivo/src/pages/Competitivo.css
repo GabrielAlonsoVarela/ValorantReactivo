@@ -1,0 +1,56 @@
+.columns {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-top: 80px;
+  }
+  
+  .column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+  }
+  
+  .tier-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .tier-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .tier-item div {
+    font-size: 16px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bg-image{
+    height: 95vh;
+    border: 1px solid black;
+    background-image: url('../images/Fondo\ compe.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .titulocompe{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+  }

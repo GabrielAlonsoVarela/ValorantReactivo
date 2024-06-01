@@ -5,6 +5,8 @@ import Inicio from './pages/Inicio';
 import Mapas from './pages/Mapas';
 import Acccesorios from './pages/Accesorios';
 import Agentes from './pages/Agentes';
+import GameModes from './pages/ModosdeJuego';
+import Competitivo from './pages/Competitivo';
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
           <Route path="mapas" element={<Mapas/>}/>
           <Route path="accesorios" element={<Acccesorios/>}/>
           <Route path="agentes" element={<Agentes/>}/>
+          <Route path="modos" element={<GameModes/>}/>
+          <Route path="competitivo" element={<Competitivo/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

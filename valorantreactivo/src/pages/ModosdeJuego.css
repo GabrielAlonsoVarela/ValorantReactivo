@@ -1,0 +1,48 @@
+.columns {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+  }
+  
+  .menu-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    background-color: #fe6774;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 5px;
+    text-align: left;
+    width: 300px;
+  }
+  
+  .menu-div img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .menu-button div {
+    margin-right: 10px;
+  }
+
+.titulo-gamemodes{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.enlacecompeti{
+    font-weight: 500;
+}
