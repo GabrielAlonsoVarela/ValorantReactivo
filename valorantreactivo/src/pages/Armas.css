@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+
+.weapon-stats h1{
+    text-align: center;
+    background-color: rgb(73, 71, 71);
+    color: white;
+}
+
+.weapon-skins, .weapon-info{
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+}
+  
+  .weapon-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .weapon-info {
+    margin: 0px 20px;
+    padding-top: 10px;
+  }
+
+  .weapon-info img {
+    width: 500px;
+    height: 200px; 
+    object-fit: contain; 
+  }
+  
+  .weapon-skins, .weapon-stats {
+    margin: 20px;
+    padding: 20px;
+
+  }
+
+  .weapon-skins{
+    width: 60%;
+    padding: 0px;
+  }
+
+  .weapon-stats{
+    width: 40%;
+    height: fit-content;
+    background-color: black;
+    opacity: 80%;
+    color: white;
+    padding: 0px;
+  }
+  
+  .weapon-skins .skin {
+    margin: 10px 0;
+  }
+  
+  .weapon-skins .skin img, .weapon-stats img {
+    width: 400px;
+    height: 200px; 
+    object-fit: contain; 
+  }
+  
+
+  .skin{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  .weapon-display > button{
+    height: 50px;
+    width: 8%;
+    border-radius: 30px;
+    margin: 0px 10px;
+    background-color: #ff4655;
+}
+
+.coste{
+    font-weight: 900;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+.adsstats{
+    text-align: left;
+}
+
+.adsstats h3{
+    width: 100%;
+    background-color: rgb(73, 71, 71);
+    margin: 0px;
+}
+
+.adsstats ul{
+    margin-top: 0px;
+}
+
+.statind {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; 
+    height: 90px; 
+    width: 47%;
+    margin: 5px;
+    
+  }
+
+  .stats{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .stats h4{
+    background-color: rgb(73, 71, 71);
+    width: 100%;
+    text-align: center;
+  }
+
+  .stats p{
+    font-weight: 700;
+  }
+
+  .titulodamage{
+    text-align: center;
+    background-color: rgb(73, 71, 71);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: rgb(73, 71, 71);
+    width: 150px; 
+  }
+  
+  td{
+    font-weight: 600;
+  }
+
+  .progress-bar {
+    height: 8px;
+    background-color: #4CAF50;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .stats p {
+    margin: 5px 0;
+  }

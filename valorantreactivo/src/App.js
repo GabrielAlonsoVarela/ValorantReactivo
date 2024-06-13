@@ -7,6 +7,7 @@ import Acccesorios from './pages/Accesorios';
 import Agentes from './pages/Agentes';
 import GameModes from './pages/ModosdeJuego';
 import Competitivo from './pages/Competitivo';
+import Armas from './pages/Armas';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="agentes" element={<Agentes/>}/>
           <Route path="modos" element={<GameModes/>}/>
           <Route path="competitivo" element={<Competitivo/>}/>
+          <Route path="armas" element={<Armas/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

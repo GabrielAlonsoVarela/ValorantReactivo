@@ -19,9 +19,14 @@ const Competitivo = () => {
     const columns = [[], [], [], [], [], [], [], [], []];
     const chunkSize = Math.ceil(data.length / columns.length);
 
-    for (let i = 0; i < data.length; i += chunkSize) {
+    /*for (let i = 0; i < data.length; i += chunkSize) {
       const chunk = data.slice(i, i + chunkSize);
       columns[i / chunkSize] = chunk.reverse();
+    }*/
+
+    for (let i = 0; i<columns.length; i++){
+      const chunk = data.slice(i * chunkSize, i * chunkSize + chunkSize);
+      columns[i] = chunk.reverse()
     }
 
     return columns;
